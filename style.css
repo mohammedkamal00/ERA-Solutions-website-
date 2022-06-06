@@ -1,0 +1,1471 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+    
+}
+body{
+   
+    font-family: 'Josefin Sans',sans-serif;
+    height: 500px;
+}
+
+
+
+.navbar{
+    
+    background-color:#2e6667;
+    /* width: 15px; */
+    /* height: 50px; */
+    margin-bottom: 0;
+   
+    
+}
+
+.navbar .container-fluid{
+    margin-left: 32%;
+    margin-top: 10px;
+}
+
+
+.navbar .navbar-nav .nav-item {
+    margin-right: 40px;
+    list-style: none;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    color: #ed5a24;
+    font-family: DauphinPlain;
+    font-size: 16px;
+
+}
+
+.carousel {
+    position: relative;
+    margin-top: -7px;
+    
+}
+
+img {
+    border-radius: 8px;
+  }
+
+  .bg{
+  float: left;
+    width: 55%;
+    height: 49%;
+    background-image: url(banner-bg.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: -webkit-center;
+    margin-top: -45%;
+    padding-left: 13%;
+    padding-right: 9%;
+    margin-left: 21%;
+    opacity: .9;
+
+}
+.ovar{
+    width: 100%;
+    height: 100%;
+    background-color: #2e6667;
+
+}
+.content{
+    position: absolute;
+    top: 19%;
+    left: 34%;
+    text-align: center;
+    color: #ed5a24;
+    margin-left: 25px;
+    margin-top: -8px;
+}
+
+   .content h1{
+    font-size: 28px;
+    line-height: 35px;
+    font-family: DauphinPlain;
+}
+.content p{
+    font-weight: 100;
+    font-family: DauphinPlain;
+    color: antiquewhite;
+}
+.content button{
+    
+       padding: 7px 20px;
+       
+       font-family: DauphinPlain;
+}
+
+.btn{
+    
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 8px;
+        background-color: #ed5a24;
+}
+
+.btn a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.color-overlay1{
+    width: 100%;
+    height: 125%;
+    background: #2d686e;
+    opacity: .5;
+    position: absolute;
+}
+
+
+
+/* ==========================start about================= */
+
+.about img{
+    width: -webkit-fill-available;
+    margin-top: -92px;
+    
+
+}
+
+
+.row{
+
+padding-top: 15px;
+display: flex;
+justify-content: space-between;
+border-bottom: 1px solid rgba(240, 224, 224, 0.514);
+/* margin-right: -60px; */
+}
+
+.row ul{
+    list-style: none;
+    float: right;
+    margin-right: 250px;
+    font-size: 15px;
+    color: #ed5a24;
+    font-weight: 400;
+    font-family: "Open Sans";
+    line-height: 14px;
+}
+
+.row ul li {
+    float: left;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.contain{
+    /* background-color:#2e6667 ; */
+    margin-top: -53%;
+    margin-right: -60px;
+}
+
+.contain .info{
+    text-align: center;
+    margin-top: 65px;
+    margin-right: 10%;
+    letter-spacing: 1px;
+}
+.contain .info .info-head{
+    color: #fd8c62;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: DauphinPlain;
+}
+
+.contain .info .info-para p{
+
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: initial;
+    font-family: DauphinPlain;
+}
+
+.contain .contact{
+    margin-left: 64%;
+    margin-top: 20%;
+
+}
+
+.contain .contact .info-con{
+    color: #fd8c62;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: none;
+
+}
+
+.contain .contact .info-pcon{
+    margin-top: -36px;
+    margin-left: 26%;
+    color: aliceblue;
+    font-family: emoji;
+    font-weight: 300;
+    line-height: initial;
+
+}
+
+.color-overlay{
+    width: 100%;
+    height: 688pc;
+    background: #2d686e;
+    opacity: .5;
+    position: absolute;
+}
+
+
+
+
+
+/* ==========================End about================= */
+
+/*=============== start vision============*/
+
+.vision{
+    margin-left: 24%;
+    margin-top: 120px;
+}
+
+.vision .vision-head{
+    color: #fd8c62;
+    font-size: 34px;
+    font-weight: 600;
+    font-family: DauphinPlain;
+}
+
+.vision .vision-para{
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: initial;
+    font-family: DauphinPlain;
+    margin-left: -31px;
+
+}
+
+.value img{
+    width: 310px;
+    height: 253px;
+    margin-left: -45px;
+    border-radius: 0px;
+    margin-top: 31px;
+    box-shadow: Horizontal shadow ;
+    box-shadow: -38px 24px #f56631;
+}
+.value p{
+    margin-left: 31%;
+    margin-top: -18%;
+    color:whitesmoke ;
+    letter-spacing: initial;
+    font-family: DauphinPlain;
+
+}
+
+
+
+/* ==========================End about================= */
+
+
+/* ==========================start mission ================= */
+
+.mission{
+    margin-top: 20%;
+}
+
+.row{
+
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(240, 224, 224, 0.514);
+    /* margin-right: -60px; */
+    }
+    
+    .row ul{
+        list-style: none;
+        float: right;
+        margin-right: 250px;
+        font-size: 15px;
+        color: #ed5a24;
+        font-weight: 400;
+        font-family: "Open Sans";
+        line-height: 14px;
+    }
+    
+    .row ul li {
+        float: left;
+        margin-left: 50px;
+        cursor: pointer;
+    }
+    
+    .con{
+        /* background-color:#2e6667 ; */
+        margin-top: -67%;
+        margin-right: -60px;
+    }
+
+    .con .missi{
+        color: #fd8c62;
+        font-size: 25px;
+        font-weight: 600;
+        font-family: DauphinPlain;
+        margin-left: 22%;
+        margin-top: 111px;
+    }
+
+    .con .missi-para p{
+     margin-left: 15%;
+    color: whitesmoke;
+    letter-spacing: initial;
+    font-family: DauphinPlain;
+    }
+
+
+
+    .con img{
+        
+            width: 310px;
+            height: 253px;
+            margin-left: 55%;
+            border-radius: 0px;
+            margin-top: -12%;
+            box-shadow: 31px 25px #f56631;
+        
+    }
+/* ==========================End mission ================= */
+
+/*=============== start city============*/
+
+.con .city{
+    margin-left: 19%;
+    margin-top: 76px;
+    color: #f56631;
+    font-size: 34px;
+    font-weight: 600;
+    font-family: DauphinPlain;
+    letter-spacing: 3px;
+
+}
+
+.con .city h4{
+    margin-top: 80px;
+    margin-left: 20px;
+    color: #f56631;
+    font-size: 34px;
+    font-weight: 600;
+    font-family: DauphinPlain;
+    letter-spacing: 3px;
+}
+.con .city h5{
+    margin-left: 46%;
+    margin-top: -8%;
+    color: #f56631;
+    font-size: 34px;
+    font-weight: 600;
+    font-family: DauphinPlain;
+    letter-spacing: 3px;
+}
+
+.con .city h6{
+    margin-left: 47%;
+    margin-top: 11%;
+    color: #f56631;
+    font-size: 34px;
+    font-weight: 600;
+    font-family: DauphinPlain;
+    letter-spacing: 3px;    
+
+}
+
+
+
+
+
+.con .city-para p{
+    margin-top: -8%;
+    margin-left: 21%;
+    color: whitesmoke;
+    letter-spacing: initial;
+    font-family: DauphinPlain;
+}
+
+.con .city-para1 p{
+    margin-left: 56%;
+    margin-top: -10%;
+    color: whitesmoke;
+    letter-spacing: initial;
+    font-family: DauphinPlain;
+}
+.con .city-para2 p{
+    margin-left: 58%;
+    margin-top: 6%;
+    color: whitesmoke;
+    letter-spacing: initial;
+    font-family: DauphinPlain;
+}
+
+.con .city-head header{
+    margin-left: 18%;
+    margin-top: -12%;
+    height: -26px;
+    font-size: 65px;
+    opacity: .6;
+    color: #f56631;
+    font-family: initial;
+}
+.con .city-head1 header{
+    margin-left: 53%;
+    margin-top: -9%;
+    height: -26px;
+    font-size: 82px;
+    opacity: .6;
+    color: #f56631;
+    font-family: emoji;
+}
+.con .city-head2 header{
+    margin-left: 53%;
+    margin-top: 5%;
+    height: -26px;
+    font-size: 89px;
+    opacity: .6;
+    color: #f56631;
+    font-family: emoji;
+}
+
+
+/*=============== end city============*/
+
+
+
+/*=============== start jsp============*/
+ .con .jsp{
+    margin-left: 26%;
+    margin-top: 9%;
+    color: #fd8c62;
+    font-size: 34px;
+    font-weight: 700;
+    font-family: serif;
+ }
+ .con .jsp h3{
+    font-size: inherit;
+ }
+
+ .con .jsp-para p{
+    margin-left: 26%;
+    margin-top: 18px;
+    color: whitesmoke;
+    letter-spacing: initial;
+    font-family: DauphinPlain;
+ }
+
+ .con .jsp-head header{
+    margin-left: 22%;
+    margin-top: -9%;
+    font-size: 89px;
+    opacity: .6;
+    color: #f56631;
+    font-family: emoji;
+ }
+
+ .header-h h3{
+
+    margin-top: 37%;
+    margin-left: 74%;
+    color: #fd8c62;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: DauphinPlain;
+ }
+ .header-p p{
+    margin-left: 84%;
+    margin-top: -31px;  
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: initial;
+    font-family: DauphinPlain;
+ }
+
+
+
+
+
+/*========================= end jsp=============================*/
+
+/*===================== start lorem ============================*/
+
+
+.lor{
+
+}
+
+
+.con .lorem{
+    color: #fd8c62;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: DauphinPlain;
+    margin-left: 22%;
+    margin-top: 111px;
+}
+
+.con .lorem-para p{
+    margin-left: 22%;
+color: whitesmoke;
+letter-spacing: initial;
+font-family: DauphinPlain;
+margin-top: 36px;
+}
+.con .lorem-para1 p{
+        margin-left: 19%;
+    color: whitesmoke;
+    letter-spacing: initial;
+    font-family: DauphinPlain;
+    margin-top: -9px;
+}
+
+
+
+.con .lorem-img img{
+    
+        width: 310px;
+        height: 253px;
+        margin-left: 55%;
+        border-radius: 0px;
+        margin-top: -8%;
+        box-shadow: 31px 25px #f56631;
+    
+}
+
+
+.con .lorem-head header{
+    margin-left: 20%;
+    margin-top: -5%;
+    margin-left: 18%;
+    margin-top: -9%;
+    font-size: 89px;
+    opacity: .6;
+    color: #f56631;
+    font-family: emoji;}
+/*========================= end lorem ========================*/
+
+
+/*========================= start simply ========================*/
+
+.con .simply h3{
+    margin-left: 36%;
+    margin-top: 6%;
+    color: #fdab62;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: DauphinPlain;
+    letter-spacing: 5px;
+    line-height: revert;
+
+}
+
+    .con .simply-para{
+            margin-left: 36%;
+            color: whitesmoke;
+        letter-spacing: initial;
+        font-family: DauphinPlain;
+
+    }
+    .con .simply-para1{
+    margin-left: 36%;
+    color: whitesmoke;
+    letter-spacing: initial;
+    font-family: DauphinPlain;
+    margin-top: 80px;
+
+    }
+
+    .con img{
+        box-shadow: none;
+
+    }
+
+    
+    .con .simply-img img{
+        width: 277px;
+        height: 359px;
+        margin-left: 16%;
+        border-radius: 0px;
+        margin-top: -25%;
+
+    }
+
+/*========================= end simply ========================*/
+
+
+/*========================= start logo ========================*/
+.con{
+    overflow: hidden;
+}
+.con .logo h3{
+    margin-left: 46%;
+    margin-top: 10%;
+    color: #b78d65;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: DauphinPlain;
+    letter-spacing: 3px;
+}
+
+ .logo-para {
+    margin-left: 52%;
+    margin-top: 122px;
+    color: whitesmoke;
+    letter-spacing: initial;
+    font-family: DauphinPlain;
+}
+ .logo-para1 {
+    margin-left: 52%;
+    margin-top: 80px;
+    color: whitesmoke;
+    letter-spacing: initial;
+    font-family: DauphinPlain;
+}
+ .logo-para2 {
+    margin-left: 52%;
+    margin-top: 80px;
+    color: whitesmoke;
+    letter-spacing: initial;
+    font-family: DauphinPlain;
+}
+
+
+
+
+
+.con .btn-group{
+    margin-left: 46%;
+    margin-top: -35%;
+
+}
+.btn-group .btn{
+    width: 73px;
+    height: 39px;
+    border-radius: 0px;
+}
+
+.con .btn-group1{
+    margin-left: 46%;
+    margin-top: -12%;
+}
+
+.btn-group1 .btn1{
+    width: 73px;
+    height: 39px;
+    border-radius: 0px;
+    background: #f56631;
+    border: none;
+}
+
+.con .btn-group2{
+    margin-left: 46%;
+    margin-top: 84px;
+}
+.btn-group2 .btn2{
+    width: 73px;
+    height: 39px;
+    border-radius: 0px;
+    background: #f56631;
+    border: none;
+
+}
+
+
+.con .lo img{
+ 
+        width: 310px;
+        height: 253px;
+        margin-left: 15%;
+        
+        margin-top: -22%;
+}
+
+
+/*========================= end logo ========================*/
+
+/*========================= start law ========================*/
+
+.con .law h3{
+    margin-left: 45%;
+    margin-top: 7%;
+    color: #fd6c62;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: DauphinPlain;
+    letter-spacing: 5px;
+    line-height: revert;
+
+}
+
+.con .law-para{
+    margin-left: 21%;
+    margin-top: 39px;
+} 
+
+
+.con .law-para p{
+    color: whitesmoke;
+    letter-spacing: initial;
+    font-family: DauphinPlain;
+}
+
+.law-h h3{
+
+    margin-top: 37%;
+    margin-left: 74%;
+    color: #fd8c62;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: DauphinPlain;
+ }
+ .law-p p{
+    margin-left: 84%;
+    margin-top: -31px;  
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: initial;
+    font-family: DauphinPlain;
+ }
+
+ .con .person img{
+    margin-top: 5%;
+    width: 17%;
+    height: 17%;
+    margin-left: 12%;
+
+ }
+ .person .person-h{
+    margin-left: 14%;
+    margin-top: 29px;
+
+ }
+ .person .person-h h3{
+    font-size: 19px;
+    color: aliceblue;
+    letter-spacing: 3px;
+    font-family: auto;
+ }
+
+ .person .person-para{
+    margin-left: 11%;
+    margin-top: 11px;
+ }
+ .person .person-para p{
+    
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #ee7649;
+    font-family: sans-serif;
+    font-weight: 600;
+
+ }
+ .person .person-para2{
+    margin-left: 14%;
+    margin-top: -13px;
+  
+
+ }
+ .person .person-para2 p{
+    color: #789798;
+    letter-spacing: 3px;
+    font-family: emoji;
+    font-size: 15px;
+ }
+ .person .person-para3{
+    margin-left: 15%;
+    margin-top: -3px;
+
+ }
+ .person .person-para3 p{
+    color: #789798;
+    letter-spacing: 3px;
+    font-family: emoji;
+    font-size: 15px;
+ }
+
+ .person .logo-fb{
+    margin-left: 15%;
+    font-size: x-large;
+    color: #ee7649;
+ }
+ .person .logo-ln{
+    margin-left: 17%;
+    margin-top: -33px;
+    font-size: x-large;
+    color: #ee7649;
+    
+ }
+ .person .logo-tw {
+    margin-left: 19%;
+    margin-top: -34px;
+    font-size: x-large;
+    color: #ee7649;
+
+    /*========================= end law ========================*/
+
+    /*========================= start photo ========================*/
+    
+
+ }
+
+ .con .person1 img{
+    margin-top: -45%;
+    width: 17%;
+    height: 17%;
+    margin-left: 38%;
+
+ }
+
+ .person1 .person1-h{
+    margin-left: 41%;
+    margin-top: -13%;
+
+ }
+
+ .person1 .person1-h h3{
+    font-size: 19px;
+    color: aliceblue;
+    letter-spacing: 3px;
+    font-family: auto;
+ }
+
+ .person1 .person1-para{
+    margin-left: 38%;
+    margin-top: 25px;
+ }
+
+ .person1 .person1-para p{
+    
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #ee7649;
+    font-family: sans-serif;
+    font-weight: 600;
+
+ }
+ .person1 .person1-para2{
+    margin-left: 41%;
+    margin-top: -11px;
+
+   
+ }
+
+ .person1 .person1-para2 p{
+    color: #6ac0c3;
+    letter-spacing: 3px;
+    font-family: emoji;
+    font-size: 15px;
+ }
+
+ .person1 .person1-para3{
+    margin-left: 43%;
+    margin-top: -2px;
+ }
+
+ .person1 .person1-para3 p{
+    color: #6ac0c3;
+    letter-spacing: 3px;
+    font-family: emoji;
+    font-size: 15px;
+ }
+ .person1 .logo1-fb{
+    margin-left: 43%;
+    margin-top: -3px;
+    font-size: x-large;
+    color: #ee7649;
+ }
+ .person1 .logo1-ln{
+    margin-left: 45%;
+    margin-top: -34px;
+    font-size: x-large;
+    color: #ee7649;
+    
+ }
+
+ .person1 .logo1-tw {
+    margin-left: 47%;
+    margin-top: -34px;
+    font-size: x-large;
+    color: #ee7649;
+
+ }
+
+ .con .person2 img{
+    margin-top: -46%;
+    width: 17%;
+    height: 17%;
+    margin-left: 65%;
+ }
+
+ .person2 .person2-h{
+    margin-left: 69%;
+    margin-top: -13%;
+
+ }
+
+ .person2 .person2-h h3{
+    font-size: 19px;
+    color: aliceblue;
+    letter-spacing: 3px;
+    font-family: auto;
+ }
+
+ .person2 .person2-para{
+    margin-top: 25px;
+    margin-left: 66%;
+ }
+
+ .person2 .person2-para p{
+    
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #ee7649;
+    font-family: sans-serif;
+    font-weight: 600;
+
+ }
+
+ .person2 .person2-para2{
+    margin-left: 70%;
+    margin-top: -11px;
+   
+ }
+ .person2 .person2-para2 p{
+    color: #6ac0c3;
+    letter-spacing: 3px;
+    font-family: emoji;
+    font-size: 15px;
+ }
+
+ .person2 .person2-para3{
+    margin-left: 72%;
+    margin-top: -2px;
+ }
+
+ .person2 .person2-para3 p{
+    color: #a4d6d8;
+    letter-spacing: 3px;
+    font-family: emoji;
+    font-size: 15px;
+ }
+
+ .person2 .logo2-fb{
+    margin-left: 72%;
+    margin-top: -3px;
+    font-size: x-large;
+    color: #ee7649
+ }
+
+ .person2 .logo2-ln{
+    margin-left: 74.5%;
+    margin-top: -33px;
+    font-size: x-large;
+    color: #ee7649
+ }
+ 
+ .person2 .logo2-tw {
+    margin-left: 77%;
+    margin-top: -34px;
+    font-size: x-large;
+    color: #ee7649;
+
+ }
+
+  /* .card img{
+    width: 28%;
+    margin-left: 7%;
+    border-radius: 50px;
+    margin-top: 72px;
+}
+  */
+
+  .card .card-img img{
+    width: 20%;
+    height: 430px;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 39px;
+  }
+
+  .card .card-body p{
+    margin-left: 18%;
+    margin-top: -16%;
+    color: white;
+    font-size: large;
+  }
+ 
+  .card .card1-body p{
+    margin-left: 19%;
+    margin-top: 0%;
+    color: white;
+    font-size: large;
+  }
+ 
+  .card2 .card2-body{
+    margin-left: 357%;
+  }
+
+ .member .infoo .card5{
+    text-align: center;
+    padding: 40px 23px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* .member .infoo .card5::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #ff3d1c;
+    z-index: -1;
+    /* transition: all.3s ease-in;
+    -webkit-transition: all.3s ease-in;
+    -moz-transition: all.3s ease-in;
+    -ms-transition: all.3s ease-in;
+    -o-transition: all.3s ease-in; */ */
+}
+
+.member .infoo .card5:hover::before{
+    height: 100%;
+}
+
+.member .col-lg-4{
+    margin-left: 37%;
+    margin-top: -17%;
+    background-color: #ee7649;
+    width: 20%;
+    height: 430px;
+    border-radius: 39px;
+
+
+}
+
+.card-head{
+    color: white;
+    margin-top: 20px;
+    font-family: initial;
+    font-size: larger;
+    letter-spacing: 5px;
+}
+
+.card-paraa{
+    margin-top: 41px;
+}
+
+.card8 .card8-img img{
+    width: 20%;
+    height: 430px;
+    margin-left: 10%;
+    margin-top: -17%;
+    border-radius: 39px;
+
+  }
+  .card8 .card3-body p{
+    margin-left: 75%;
+    margin-top: -19%;
+    color: white;
+    font-size: large;
+  }
+
+  .card8 .card4-body p{
+    margin-left: 76%;
+    margin-top: 0%;
+    color: white;
+    font-size: large;
+
+  }
+
+  .car-head h3{
+    margin-left: 40%;
+    margin-top: -20%;
+    color: white;
+    font-size: 30px;
+    font-family: auto
+  }
+
+
+    /*========================= end photo ========================*/
+
+
+    /*========================= start contactt ========================*/
+    .contactt h3{
+        margin-top: 8%;
+        margin-left: 47%;
+        color: #f56631;
+        font-size: 34px;
+        font-weight: 600;
+        font-family: DauphinPlain;
+        letter-spacing: 3px;
+    }
+
+    .contactt-para {
+    margin-left: 47%;
+    margin-top: 31px;
+    color: white;
+    font-family: DauphinPlain;
+
+    }
+
+
+
+
+
+
+
+.form1-inline{
+    margin-left: 62%;
+    margin-top: -28px;
+}
+
+.form1-inline .form1-control{
+
+    border-radius: 29px;
+    height: 35px;
+    margin-top: -7px;
+
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;;
+    background-color: #8d9aa2;
+    background-image: none;
+    border: none;
+   
+    box-shadow: inset -30px 5px rgb(0 0 0 / 0%);
+}
+
+
+.form2-inline{
+    margin-left: 47%;
+    margin-top: 21px;
+}
+.form2-inline .form2-control{
+
+    border-radius: 29px;
+    height: 35px;
+    margin-top: -5px;
+    height: 32px;
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: #8d9aa2;
+    background-image: none;
+    box-shadow: inset -30px 5px rgb(0 0 0 / 0%);
+    width: 24%;
+    border: none;
+}
+
+.form3-inline{
+    margin-left: 62%;
+    margin-top: -25px;
+}
+.form3-inline .form3-control{
+
+    border-radius: 29px;
+    height: 35px;
+    margin-top: -5px;
+    height: 32px;
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: #8d9aa2;
+    background-image: none;
+    box-shadow: inset -30px 5px rgb(0 0 0 / 0%);
+    width: 34%;
+    border: none;
+}
+
+.form4-inline{
+    margin-left: 47%;
+    margin-top: 21px;
+}
+
+.form4-inline .form4-control{
+
+    border-radius: 29px;
+    margin-top: -5px;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: #8d9aa2;
+    background-image: none;
+    box-shadow: inset -30px 5px rgb(0 0 0 / 0%);
+    width: 53%;
+    border: none;
+}
+
+
+
+.form0-inline{
+    margin-left: 47%;
+    margin-top: 21px;
+}
+.form0-inline .form0-control{
+    border-radius: 29px;
+    margin-top: -5px;
+    height: 35px;
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: #8d9aa2;
+    background-image: none;
+    box-shadow: inset -30px 5px rgb(0 0 0 / 0%);
+    width: 24%;
+    border: none;
+}
+
+.btn-p{
+    
+    /* background-repeat: repeat-x; */
+    /* border-color: #245580; */
+    margin-left: 47%;
+    margin-top: 18px;
+    height: 42px;
+    width: 28%;
+    border-radius: 20px;
+    background: #ec5925;
+    border: none;
+
+}
+
+#map{
+    height: 500px;
+    width: 39%;
+    margin-top: -33%;
+    margin-left: 2%;
+}
+
+
+    /*========================= end contactt ========================*/
+
+
+
+
+    /*========================= start visa ========================*/
+
+    .visa-head{
+        margin-left: 40%;
+        margin-top: 56px;
+    }
+
+    .visa-head h3{
+        font-size: 29px;
+        font-family: auto;
+      color: #ec5925;
+    }
+
+    .visa-para p{
+        margin-left: 20%;
+        margin-top: 35px;
+        color: whitesmoke;
+        font-size: 16px;
+        font-weight: 200;
+        letter-spacing: initial;
+        font-family: DauphinPlain;
+    }
+
+    .visa-h header{
+
+      font-size: 89px;
+    opacity: .6;
+    color: #f56631;
+    font-family: emoji;
+    margin-left: 18%;
+    margin-top: -7%;
+
+}
+
+
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 55%;
+}
+
+.section-padding {
+	padding: 30px 0;
+}
+.brand-carousel {
+	/* background: #fcf6ea; */
+    margin: 0;
+    margin-top: 162px;
+}
+.owl-dots {
+	text-align: center;
+	margin-top: 40px;
+}
+.owl-dot {
+	display: inline-block;
+	height: 15px !important;
+	width: 15px !important;
+	background-color: #444 !important;
+	opacity: 0.8;
+	border-radius: 50%;
+	margin: 0 5px;
+}
+.owl-dot.active {
+	background-color: black !important;
+}
+
+.address-head {
+    margin-top: 8%;
+    margin-left: 8%;
+}
+
+.address-head h3 {
+    font-size: 20px;
+    font-family: auto;
+  color: #ec5925;
+}
+
+.address-para {
+    margin-left:97px;
+    margin-top: 30px;
+}
+
+.address-para p{
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: initial;
+    font-family: DauphinPlain;
+}
+
+.address-head2 {
+    margin-top: -7%;
+    margin-left: 45%;
+}
+.address-head2 h3 {
+    font-size: 20px;
+    font-family: auto;
+  color: #ec5925;
+}
+
+
+.logo1-call{
+    margin-left: 43%;
+    margin-top: 1px;
+    font-size: x-large;
+    color: #ee7649;
+    font-weight: 900;
+ }
+
+ .logo5-para{
+    margin-left: 45%;
+    margin-top: -6.5%;
+
+
+ }
+
+ .logo5-para p{
+    color: aliceblue;
+ }
+
+ .logo6-para{
+    margin-left: 45%;
+    margin-top: 1%
+ }
+ .logo6-para p{
+    color: aliceblue;
+ }
+
+ .logo7-para{
+    margin-left: 45%;
+    margin-top: 1%
+ }
+
+ .logo7-para p{
+    color: aliceblue;
+ }
+
+.email{
+    
+    margin-left: 85%;
+    margin-top: -10%;
+
+}
+
+.email h3{
+    font-size: 20px;
+    font-family: auto;
+  color: #ec5925;
+}
+
+.ema-para{
+    margin-left: 81%;
+    margin-top: 31px;
+}
+
+.ema-para p{
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: initial;
+    font-family: DauphinPlain;
+}
+
+.logo-tww{
+    margin-left: 82%;
+    margin-top: -3px;
+    font-size: x-large;
+    color: #ee7649;
+}
+
+
+.logo-fbb{
+    margin-left: 84.5%;
+    margin-top: -33px;
+    font-size: x-large;
+    color: #ee7649
+}
+
+.logo-lnn{
+    margin-left: 87%;
+    margin-top: -33px;
+    font-size: x-large;
+    color: #ee7649
+}
+
+.logo-insta{
+    margin-left: 90%;
+    margin-top: -33px;
+    font-size: x-large;
+    color: #ee7649;
+}
+
+
+    /*========================= end visa ========================*/
+
+
+
+ 
+
+
+
+
+
+
